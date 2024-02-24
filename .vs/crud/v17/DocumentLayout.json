@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projetos\\crud\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB05A42-C599-402D-A84B-F90C296CAB80}|src\\crud.DAL\\crud.DAL.csproj|c:\\projetos\\crud\\src\\crud.dal\\crud.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BAB05A42-C599-402D-A84B-F90C296CAB80}|src\\crud.DAL\\crud.DAL.csproj|solutionrelative:src\\crud.dal\\crud.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "crud.DAL",
+              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.DAL\\crud.DAL.csproj",
+              "RelativeDocumentMoniker": "src\\crud.DAL\\crud.DAL.csproj",
+              "ToolTip": "C:\\projetos\\crud\\src\\crud.DAL\\crud.DAL.csproj",
+              "RelativeToolTip": "src\\crud.DAL\\crud.DAL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-24T17:47:42.148Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
