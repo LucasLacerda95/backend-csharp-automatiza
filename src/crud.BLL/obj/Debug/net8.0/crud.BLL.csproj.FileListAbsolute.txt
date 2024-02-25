@@ -1,0 +1,12 @@
+C:\projetos\crud\src\crud.BLL\bin\Debug\net8.0\crud.BLL.deps.json
+C:\projetos\crud\src\crud.BLL\bin\Debug\net8.0\crud.BLL.dll
+C:\projetos\crud\src\crud.BLL\bin\Debug\net8.0\crud.BLL.pdb
+C:\projetos\crud\src\crud.BLL\obj\Debug\net8.0\crud.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\crud\src\crud.BLL\obj\Debug\net8.0\crud.BLL.AssemblyInfoInputs.cache
+C:\projetos\crud\src\crud.BLL\obj\Debug\net8.0\crud.BLL.AssemblyInfo.cs
+C:\projetos\crud\src\crud.BLL\obj\Debug\net8.0\crud.BLL.csproj.CoreCompileInputs.cache
+C:\projetos\crud\src\crud.BLL\obj\Debug\net8.0\crud.BLL.sourcelink.json
+C:\projetos\crud\src\crud.BLL\obj\Debug\net8.0\crud.BLL.dll
+C:\projetos\crud\src\crud.BLL\obj\Debug\net8.0\refint\crud.BLL.dll
+C:\projetos\crud\src\crud.BLL\obj\Debug\net8.0\crud.BLL.pdb
+C:\projetos\crud\src\crud.BLL\obj\Debug\net8.0\ref\crud.BLL.dll

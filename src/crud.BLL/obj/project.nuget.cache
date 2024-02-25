@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9HFGOHMnx3TUJxuaDWRDKc/kyYbnd/63er9NL4g+4ZmK4r9ETdfcOahiYpc2lph75KcH4p5hgPUTxw4tYfWTbw==",
+  "dgSpecHash": "xySsRnrcuj5rQbSgd/0RJQbsZ5lkQKkcDdjqytn8vYUgvXcpAbxs1cct/3GaM4LuEdZcn0emkm9rfkoPs+1ytg==",
   "success": true,
   "projectFilePath": "C:\\projetos\\crud\\src\\crud.BLL\\crud.BLL.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\lucas\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,12 @@
+C:\projetos\crud\src\crud.DAL\bin\Debug\net8.0\crud.DAL.deps.json
+C:\projetos\crud\src\crud.DAL\bin\Debug\net8.0\crud.DAL.dll
+C:\projetos\crud\src\crud.DAL\bin\Debug\net8.0\crud.DAL.pdb
+C:\projetos\crud\src\crud.DAL\obj\Debug\net8.0\crud.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\crud\src\crud.DAL\obj\Debug\net8.0\crud.DAL.AssemblyInfoInputs.cache
+C:\projetos\crud\src\crud.DAL\obj\Debug\net8.0\crud.DAL.AssemblyInfo.cs
+C:\projetos\crud\src\crud.DAL\obj\Debug\net8.0\crud.DAL.csproj.CoreCompileInputs.cache
+C:\projetos\crud\src\crud.DAL\obj\Debug\net8.0\crud.DAL.sourcelink.json
+C:\projetos\crud\src\crud.DAL\obj\Debug\net8.0\crud.DAL.dll
+C:\projetos\crud\src\crud.DAL\obj\Debug\net8.0\refint\crud.DAL.dll
+C:\projetos\crud\src\crud.DAL\obj\Debug\net8.0\crud.DAL.pdb
+C:\projetos\crud\src\crud.DAL\obj\Debug\net8.0\ref\crud.DAL.dll
