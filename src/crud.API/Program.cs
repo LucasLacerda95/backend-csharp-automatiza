@@ -15,7 +15,8 @@ namespace crud.API
             builder.Services.ResolveDependencias();  //Configuration/DependencyInjectionConfig
 
             builder.Services.AddWebApiConfig(); //Configuration/ApiConfig
-            
+
+            builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());//Configuration/AutoMapperConf
             
 
 

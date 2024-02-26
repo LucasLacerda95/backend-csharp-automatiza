@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ptRpQ0ZHP0/2RI6TEeH4m/h+72GSKeANdZ+nTOCyHKit3hvwHG3bYvOzq/eY3WEYMj4H/xaJcM9DY8t/Mk9yJw==",
+  "dgSpecHash": "4Yti/XsctT1OiMCfWbIhVavMBv9dX5+8mwaSKNRZJV94tZPYB0Vhrn7SZTcUJqXGDZm5ox2ZuoXgCpoLvifGsA==",
   "success": true,
   "projectFilePath": "C:\\projetos\\crud\\src\\crud.API\\crud.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\lucas\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

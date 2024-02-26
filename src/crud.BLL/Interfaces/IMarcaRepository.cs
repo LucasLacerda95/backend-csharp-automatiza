@@ -3,8 +3,10 @@ using crud.BLL.Models;
 
 namespace crud.BLL.Interfaces
 {
-    public interface IMarcaRepository
+    public interface IMarcaRepository : IRepository<Marca>
     {
+
+       
         
     }
 }
