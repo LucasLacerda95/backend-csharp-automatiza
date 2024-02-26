@@ -10,3 +10,9 @@ C:\projetos\crud\src\crud.DAL\obj\Debug\net8.0\crud.DAL.dll
 C:\projetos\crud\src\crud.DAL\obj\Debug\net8.0\refint\crud.DAL.dll
 C:\projetos\crud\src\crud.DAL\obj\Debug\net8.0\crud.DAL.pdb
 C:\projetos\crud\src\crud.DAL\obj\Debug\net8.0\ref\crud.DAL.dll
+C:\projetos\crud\src\crud.DAL\bin\Debug\net8.0\crud.DAL.runtimeconfig.json
+C:\projetos\crud\src\crud.DAL\bin\Debug\net8.0\crud.BLL.dll
+C:\projetos\crud\src\crud.DAL\bin\Debug\net8.0\crud.BLL.pdb
+C:\projetos\crud\src\crud.DAL\obj\Debug\net8.0\crud.DAL.csproj.AssemblyReference.cache
+C:\projetos\crud\src\crud.DAL\obj\Debug\net8.0\crud.DAL.csproj.Up2Date
+C:\projetos\crud\src\crud.DAL\obj\Debug\net8.0\crud.DAL.genruntimeconfig.cache

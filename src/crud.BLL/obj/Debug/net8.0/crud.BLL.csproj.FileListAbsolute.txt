@@ -10,3 +10,4 @@ C:\projetos\crud\src\crud.BLL\obj\Debug\net8.0\crud.BLL.dll
 C:\projetos\crud\src\crud.BLL\obj\Debug\net8.0\refint\crud.BLL.dll
 C:\projetos\crud\src\crud.BLL\obj\Debug\net8.0\crud.BLL.pdb
 C:\projetos\crud\src\crud.BLL\obj\Debug\net8.0\ref\crud.BLL.dll
+C:\projetos\crud\src\crud.BLL\obj\Debug\net8.0\crud.BLL.csproj.AssemblyReference.cache

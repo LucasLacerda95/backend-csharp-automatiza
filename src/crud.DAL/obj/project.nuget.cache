@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7Hp/7UtLnc33jYpunz0rOEFM49SU8D1QbzACtGf8PVHaojDNVONSoRbjPhc227ndnjpz309CSm7bbxpie3iN6g==",
+  "dgSpecHash": "rDdvUvpP+uSPkhIqU3c5qTxsMdPzQJYKzHXa3Eckxs5a3z1pwfz2tYxTA0qMLjhnC67Ua9hNWH0uc6N2Lq4H4A==",
   "success": true,
   "projectFilePath": "C:\\projetos\\crud\\src\\crud.DAL\\crud.DAL.csproj",
   "expectedPackageFiles": [

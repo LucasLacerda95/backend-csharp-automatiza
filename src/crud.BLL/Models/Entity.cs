@@ -5,10 +5,10 @@ namespace crud.BLL.Models
     {
         protected Entity()
         {
-            id = Guid.NewGuid();
+            Codigo = Guid.NewGuid();
         }
 
-        public Guid id { get; set; }
+        public Guid Codigo { get; set; }
     }
 
 }

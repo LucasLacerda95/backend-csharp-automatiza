@@ -1,23 +1,25 @@
+using crud.API.Configuration;
 
 namespace crud.API
 {
     public class Program
     {
         public static void Main(string[] args)
+
         {
             var builder = WebApplication.CreateBuilder(args);
 
-          
 
-            builder.Services.AddControllers();
+            builder.Services.AddEntityConfiguration(builder.Configuration); //Configuration/EntityConfig
+
+            builder.Services.ResolveDependencias();  //Configuration/DependencyInjectionConfig
+
+            builder.Services.AddWebApiConfig(); //Configuration/ApiConfig
+            
             
 
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
-
-            
 
             if (app.Environment.IsDevelopment())
             {
@@ -25,12 +27,11 @@ namespace crud.API
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
 
-            app.UseAuthorization();
+            app.UseAuthentication();//Adiciona Middlewere de autenticação, encapsula o acesso à API
 
+            app.UseWebApiConfig();
 
-            app.MapControllers();
 
             app.Run();
         }

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\projetos\\crud\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|c:\\projetos\\crud\\src\\crud.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|solutionrelative:src\\crud.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7AEA3536-3E42-4DC0-9D30-93BBB344EDB2}|Itens de Solu\u00E7\u00E3o{7AEA3536-3E42-4DC0-9D30-93BBB344EDB2}|C:\\projetos\\crud\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{7AEA3536-3E42-4DC0-9D30-93BBB344EDB2}|Itens de Solu\u00E7\u00E3o{7AEA3536-3E42-4DC0-9D30-93BBB344EDB2}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17F1A96-66EE-4A65-93F9-F0F6495C4064}|src\\crud.BLL\\crud.BLL.csproj|c:\\projetos\\crud\\src\\crud.bll\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17F1A96-66EE-4A65-93F9-F0F6495C4064}|src\\crud.BLL\\crud.BLL.csproj|solutionrelative:src\\crud.bll\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.API\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\crud.API\\appsettings.json",
-              "ToolTip": "C:\\projetos\\crud\\src\\crud.API\\appsettings.json",
-              "RelativeToolTip": "src\\crud.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-25T03:03:57.027Z",
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\projetos\\crud\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\projetos\\crud\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-02-26T01:41:20.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.BLL\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "src\\crud.BLL\\Models\\Produto.cs",
+              "ToolTip": "C:\\projetos\\crud\\src\\crud.BLL\\Models\\Produto.cs",
+              "RelativeToolTip": "src\\crud.BLL\\Models\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T01:25:21.164Z",
               "EditorCaption": ""
             }
           ]

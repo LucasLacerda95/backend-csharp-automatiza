@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using crud.BLL.Models;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System.Reflection.Emit;
 
 namespace crud.DAL.Mappings
 {
@@ -8,7 +9,7 @@ namespace crud.DAL.Mappings
     {
         public void Configure(EntityTypeBuilder<Produto> builder)
         {
-            builder.HasKey(p => p.ProdutoID);
+            builder.HasKey(p => p.Codigo);
 
             builder.Property(p => p.Descricao)
                 .IsRequired()
@@ -24,9 +25,8 @@ namespace crud.DAL.Mappings
                 .IsRequired()
                 .HasColumnType("varchar(100)");
 
-            // 1 => 1  -- Produto -> Marca
-            builder.HasOne(m => m.MarcaId)
-                .WithOne(p => p.ProdutoId);
+            builder.Property(p => p.codigo_Marca)
+                .IsRequired();
 
             builder.ToTable("Produtos");
 
