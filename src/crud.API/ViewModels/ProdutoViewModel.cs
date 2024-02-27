@@ -5,7 +5,7 @@ namespace crud.API.ViewModels
     public class ProdutoViewModel
     {
         [Key]
-        public Guid Codigo { get; set; }
+        public Guid Id { get; set; }
 
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         [StringLength(300, ErrorMessage = "O campo {0} precisa ter entre {2} e {1} caracteres", MinimumLength = 3)]
@@ -18,7 +18,7 @@ namespace crud.API.ViewModels
 
         public string Situacao { get; set; }
 
-        public Guid codigo_Marca { get; set; }
+        public Guid id_Marca { get; set; }
 
     }
 }

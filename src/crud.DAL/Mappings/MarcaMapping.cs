@@ -9,7 +9,7 @@ namespace crud.DAL.Mappings
     {
         public void Configure(EntityTypeBuilder<Marca> builder)
         {
-            builder.HasKey(m => m.Codigo);
+            builder.HasKey(m => m.Id);
 
             builder.Property(m => m.Descricao)
                 .IsRequired()

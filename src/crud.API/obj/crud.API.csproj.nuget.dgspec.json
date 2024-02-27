@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\projetos\\crud\\src\\crud.API\\crud.API.csproj",
         "projectName": "crud.API",
         "projectPath": "C:\\projetos\\crud\\src\\crud.API\\crud.API.csproj",
-        "packagesPath": "C:\\Users\\Lucas L - Automatiza\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
         "outputPath": "C:\\projetos\\crud\\src\\crud.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lucas L - Automatiza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -107,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -117,11 +117,11 @@
         "projectUniqueName": "C:\\projetos\\crud\\src\\crud.BLL\\crud.BLL.csproj",
         "projectName": "crud.BLL",
         "projectPath": "C:\\projetos\\crud\\src\\crud.BLL\\crud.BLL.csproj",
-        "packagesPath": "C:\\Users\\Lucas L - Automatiza\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
         "outputPath": "C:\\projetos\\crud\\src\\crud.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lucas L - Automatiza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -173,7 +173,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -183,11 +183,11 @@
         "projectUniqueName": "C:\\projetos\\crud\\src\\crud.DAL\\crud.DAL.csproj",
         "projectName": "crud.DAL",
         "projectPath": "C:\\projetos\\crud\\src\\crud.DAL\\crud.DAL.csproj",
-        "packagesPath": "C:\\Users\\Lucas L - Automatiza\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
         "outputPath": "C:\\projetos\\crud\\src\\crud.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lucas L - Automatiza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -259,7 +259,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

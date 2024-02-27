@@ -9,7 +9,7 @@ namespace crud.BLL.Models
         public decimal Preco { get; set; }
         public int Estoque { get; set; }
         public string Situacao { get; set; }
-        public Guid codigo_Marca { get; set; }
+        public Guid id_Marca { get; set; }
 
 
     }

@@ -9,7 +9,7 @@ namespace crud.DAL.Mappings
     {
         public void Configure(EntityTypeBuilder<Produto> builder)
         {
-            builder.HasKey(p => p.Codigo);
+            builder.HasKey(p => p.Id);
 
             builder.Property(p => p.Descricao)
                 .IsRequired()
@@ -25,7 +25,7 @@ namespace crud.DAL.Mappings
                 .IsRequired()
                 .HasColumnType("varchar(100)");
 
-            builder.Property(p => p.codigo_Marca)
+            builder.Property(p => p.id_Marca)
                 .IsRequired();
 
             builder.ToTable("Produtos");

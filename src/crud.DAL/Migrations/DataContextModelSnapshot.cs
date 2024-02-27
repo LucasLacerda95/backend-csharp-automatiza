@@ -21,7 +21,7 @@ namespace crud.DAL.Migrations
 
             modelBuilder.Entity("crud.BLL.Models.Marca", b =>
                 {
-                    b.Property<Guid>("Codigo")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
@@ -33,14 +33,14 @@ namespace crud.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(100)");
 
-                    b.HasKey("Codigo");
+                    b.HasKey("Id");
 
                     b.ToTable("Marcas", (string)null);
                 });
 
             modelBuilder.Entity("crud.BLL.Models.Produto", b =>
                 {
-                    b.Property<Guid>("Codigo")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
@@ -58,10 +58,10 @@ namespace crud.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(100)");
 
-                    b.Property<Guid>("codigo_Marca")
+                    b.Property<Guid>("id_Marca")
                         .HasColumnType("char(36)");
 
-                    b.HasKey("Codigo");
+                    b.HasKey("Id");
 
                     b.ToTable("Produtos", (string)null);
                 });

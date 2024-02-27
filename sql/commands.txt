@@ -1,0 +1,6 @@
+select * from crud.marcas;
+select * from crud.produtos;
+
+INSERT INTO crud.marcas (Id, Descricao, Situacao) VALUES ('9652b405-38f6-40dc-a544-c923c1b3c704','AES','ATIVO');
+INSERT INTO crud.marcas (Id, Descricao, Situacao) VALUES ('f0298c34-6b06-473b-a4f6-53169bc1f10b','NEO QUIMICA','ATIVO');
+INSERT INTO crud.marcas (Id, Descricao, Situacao) VALUES ('2d27495e-6e09-42ae-8cf6-fc9c90186ce3','GEOLAB','INATIVO');

@@ -1,7 +1,10 @@
 ﻿using System.Runtime.CompilerServices;
 using crud.BLL.Interfaces;
 using crud.BLL.Models;
+using crud.BLL.Services;
 using crud.DAL.Context;
+using crud.DAL.Repository;
+
 
 
 namespace crud.API.Configuration
@@ -13,8 +16,11 @@ namespace crud.API.Configuration
         {
 
             services.AddScoped<DataContext>();
-            //services.AddScoped<IMarcaRepository, MarcaRepository>();
+            services.AddScoped<IMarcaRepository, MarcaRepository>();
 
+
+            services.AddScoped<IMarcaService, MarcaService>();
+      
 
             return services;
         }

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace crud.DAL.Repository
 {
-    internal class Repository<TEntity> : IRepository<TEntity> where TEntity : Entity, new()
+    public class Repository<TEntity> : IRepository<TEntity> where TEntity : Entity, new()
     {
         protected readonly DataContext Db;
         protected readonly DbSet<TEntity> DbSet;
@@ -21,14 +21,35 @@ namespace crud.DAL.Repository
             DbSet = db.Set<TEntity>();
         }
 
-        public void Dispose()
+
+        public virtual async Task<List<TEntity>> ObterTodos()
         {
-            throw new NotImplementedException();
+            return await DbSet.ToListAsync();
         }
 
-        public Task<List<TEntity>> ObterTodos()
+        public virtual async Task<TEntity> ObterPorId(Guid id)
         {
-            throw new NotImplementedException();
+            return await DbSet.FindAsync(id);
+        }
+
+        public virtual async Task Adicionar(TEntity entity)
+        {
+            DbSet.Add(entity);
+            await SaveChanges();
+        }
+
+
+
+
+     
+        public async Task<int> SaveChanges()
+        {
+            return await Db.SaveChangesAsync();
+        }
+
+        public void Dispose()
+        {
+            Db?.Dispose();
         }
     }
 }
