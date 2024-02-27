@@ -59,12 +59,34 @@ namespace crud.API.Controllers
             return marcaViewModel;
         }
 
+        [HttpPut("{id:guid}")]
+        public async Task<IActionResult> Atualizar(Guid id, MarcaViewModel marcaViewModel)
+        {
+            if (id != marcaViewModel.Id)
+            {
+                return Forbid();
+            }
+
+            var marcaAtualizacao = await ObterMarca(id);
+            if (!ModelState.IsValid) return BadRequest();
+
+            marcaAtualizacao.Descricao = marcaViewModel.Descricao;
+            marcaAtualizacao.Situacao = marcaViewModel.Situacao;
+
+            await _marcaService.Atualizar(_mapper.Map<Marca>(marcaAtualizacao));
+
+
+            return Ok(marcaViewModel);
+        }
+
 
 
         private async Task<MarcaViewModel> ObterMarca(Guid id)
         {
             return _mapper.Map<MarcaViewModel>(await _marcaRepository.ObterMarcaPorId(id));
         }
+
+        
 
     }
 

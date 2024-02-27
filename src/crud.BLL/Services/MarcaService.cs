@@ -27,6 +27,12 @@ namespace crud.BLL.Services
             await _marcaRepository.Adicionar(marca);
         }
 
+        public async Task Atualizar(Marca marca)
+        {
+            
+            await _marcaRepository.Adicionar(marca);
+        }
+
       
 
         public void Dispose()

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\projetos\\crud\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|c:\\projetos\\crud\\src\\crud.api\\configuration\\injecaodedependenciaconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|solutionrelative:src\\crud.api\\configuration\\injecaodedependenciaconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|c:\\projetos\\crud\\src\\crud.api\\controllers\\marcascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|solutionrelative:src\\crud.api\\controllers\\marcascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|c:\\projetos\\crud\\src\\crud.api\\configuration\\automapperconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|solutionrelative:src\\crud.api\\configuration\\automapperconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B17F1A96-66EE-4A65-93F9-F0F6495C4064}|src\\crud.BLL\\crud.BLL.csproj|c:\\projetos\\crud\\src\\crud.bll\\interfaces\\imarcaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17F1A96-66EE-4A65-93F9-F0F6495C4064}|src\\crud.BLL\\crud.BLL.csproj|solutionrelative:src\\crud.bll\\interfaces\\imarcaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17F1A96-66EE-4A65-93F9-F0F6495C4064}|src\\crud.BLL\\crud.BLL.csproj|c:\\projetos\\crud\\src\\crud.bll\\services\\marcaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17F1A96-66EE-4A65-93F9-F0F6495C4064}|src\\crud.BLL\\crud.BLL.csproj|solutionrelative:src\\crud.bll\\services\\marcaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InjecaoDeDependenciaConf.cs",
-              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.API\\Configuration\\InjecaoDeDependenciaConf.cs",
-              "RelativeDocumentMoniker": "src\\crud.API\\Configuration\\InjecaoDeDependenciaConf.cs",
-              "ToolTip": "C:\\projetos\\crud\\src\\crud.API\\Configuration\\InjecaoDeDependenciaConf.cs",
-              "RelativeToolTip": "src\\crud.API\\Configuration\\InjecaoDeDependenciaConf.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAADwvxYAAAAGAAAA",
+              "DocumentIndex": 2,
+              "Title": "MarcaService.cs",
+              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.BLL\\Services\\MarcaService.cs",
+              "RelativeDocumentMoniker": "src\\crud.BLL\\Services\\MarcaService.cs",
+              "ToolTip": "C:\\projetos\\crud\\src\\crud.BLL\\Services\\MarcaService.cs",
+              "RelativeToolTip": "src\\crud.BLL\\Services\\MarcaService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvx4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T04:37:50.629Z",
+              "WhenOpened": "2024-02-27T15:19:38.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AutoMapperConf.cs",
-              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.API\\Configuration\\AutoMapperConf.cs",
-              "RelativeDocumentMoniker": "src\\crud.API\\Configuration\\AutoMapperConf.cs",
-              "ToolTip": "C:\\projetos\\crud\\src\\crud.API\\Configuration\\AutoMapperConf.cs",
-              "RelativeToolTip": "src\\crud.API\\Configuration\\AutoMapperConf.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Title": "IMarcaService.cs",
+              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.BLL\\Interfaces\\IMarcaService.cs",
+              "RelativeDocumentMoniker": "src\\crud.BLL\\Interfaces\\IMarcaService.cs",
+              "ToolTip": "C:\\projetos\\crud\\src\\crud.BLL\\Interfaces\\IMarcaService.cs",
+              "RelativeToolTip": "src\\crud.BLL\\Interfaces\\IMarcaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T04:37:26.802Z",
+              "WhenOpened": "2024-02-27T15:19:26.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MarcasController.cs",
+              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.API\\Controllers\\MarcasController.cs",
+              "RelativeDocumentMoniker": "src\\crud.API\\Controllers\\MarcasController.cs",
+              "ToolTip": "C:\\projetos\\crud\\src\\crud.API\\Controllers\\MarcasController.cs",
+              "RelativeToolTip": "src\\crud.API\\Controllers\\MarcasController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAiwFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T15:06:06.189Z",
               "EditorCaption": ""
             }
           ]
