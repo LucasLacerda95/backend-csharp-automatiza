@@ -21,6 +21,7 @@ namespace crud.API
 
 
             var app = builder.Build();
+            app.UseWebApiConfig();
 
             if (app.Environment.IsDevelopment())
             {
@@ -31,7 +32,6 @@ namespace crud.API
 
             app.UseAuthentication();//Adiciona Middlewere de autenticação, encapsula o acesso à API
 
-            app.UseWebApiConfig();
 
 
             app.Run();

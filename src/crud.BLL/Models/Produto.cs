@@ -8,7 +8,7 @@ namespace crud.BLL.Models
         public string Descricao { get; set; }
         public decimal Preco { get; set; }
         public int Estoque { get; set; }
-        public string Status { get; set; }
+        public string Situacao { get; set; }
         public Guid codigo_Marca { get; set; }
 
 

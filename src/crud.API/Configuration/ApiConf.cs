@@ -38,7 +38,7 @@ namespace crud.API.Configuration
 
             services.AddDbContext<DataContext>
             (options => options
-                .UseMySql(configuration.GetConnectionString("connectionString"), serverVersion));
+                .UseMySql(configuration.GetConnectionString("AutomatizaConnection"), serverVersion));
 
 
             return services;

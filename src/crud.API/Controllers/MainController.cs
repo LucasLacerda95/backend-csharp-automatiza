@@ -6,6 +6,13 @@ namespace crud.API.Controllers
     public abstract class MainController : ControllerBase
     {
 
+        //Validacao de notificacoes e erro
+
+        //Validacao de modelState 
+
+        //Validacao da operacao de negócios
 
     }
+
+
 }

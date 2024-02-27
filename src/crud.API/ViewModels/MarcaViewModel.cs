@@ -12,6 +12,6 @@ namespace crud.API.ViewModels
         public string Descricao { get; set; }
         
 
-        public string Status { get; set; }
+        public string Situacao { get; set; }
     }
 }

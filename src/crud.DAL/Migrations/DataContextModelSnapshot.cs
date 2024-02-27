@@ -29,7 +29,7 @@ namespace crud.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(100)");
 
-                    b.Property<string>("Status")
+                    b.Property<string>("Situacao")
                         .IsRequired()
                         .HasColumnType("varchar(100)");
 
@@ -54,7 +54,7 @@ namespace crud.DAL.Migrations
                     b.Property<decimal>("Preco")
                         .HasColumnType("decimal(65,30)");
 
-                    b.Property<string>("Status")
+                    b.Property<string>("Situacao")
                         .IsRequired()
                         .HasColumnType("varchar(100)");
 

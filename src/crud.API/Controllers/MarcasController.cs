@@ -8,35 +8,30 @@ using RouteAttribute = Microsoft.AspNetCore.Components.RouteAttribute;
 
 namespace crud.API.Controllers
 {
-
     [Route("api/marcas")]
     public class MarcasController : MainController
     {
 
-        private readonly IMarcaRepository _marcaRepository;
-        private readonly IMarcaService _marcaService;
+        private readonly IMarcaRepository _marcasRepository;
         private readonly IMapper _mapper;
 
-
-
-        public MarcasController(IMarcaRepository marcaRepository, //Injeção de dependência via Mapper
-                                IMarcaService marcaService,
-                                IMapper mapper)
+        public MarcasController(IMarcaRepository marcaRepository, 
+                                IMapper mapper)//Injecao de dependencia
         {
-            _marcaRepository = marcaRepository;
-            _marcaService = marcaService;
+            _marcasRepository = marcaRepository;
             _mapper = mapper;
         }
 
-        [HttpPost("")]
-        public async Task<ActionResult<MarcaViewModel>> AdicionarMarca([FromBody]MarcaViewModel marcaViewModel)
+
+        [HttpGet("obterTodos")]
+        public async Task<IEnumerable<MarcaViewModel>> ObterTodos()
         {
-            if(!ModelState.IsValid) return BadRequest(ModelState);
 
-            await _marcaService.Adicionar(_mapper.Map<Marca>(marcaViewModel));
+            var marca = _mapper.Map<IEnumerable<MarcaViewModel>>(await _marcasRepository.ObterTodos());
+            return marca;
+            //Optei por não retornar um action result para diminuir a complexidade do retorno
+            //naturalmente será um 200
         }
-
-
 
 
     }

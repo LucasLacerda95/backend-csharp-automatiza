@@ -11,8 +11,8 @@ using crud.DAL.Context;
 namespace crud.DAL.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240226013223_FirstMigration")]
-    partial class FirstMigration
+    [Migration("20240227001418_SecondMigration")]
+    partial class SecondMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -32,7 +32,7 @@ namespace crud.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(100)");
 
-                    b.Property<string>("Status")
+                    b.Property<string>("Situacao")
                         .IsRequired()
                         .HasColumnType("varchar(100)");
 
@@ -57,7 +57,7 @@ namespace crud.DAL.Migrations
                     b.Property<decimal>("Preco")
                         .HasColumnType("decimal(65,30)");
 
-                    b.Property<string>("Status")
+                    b.Property<string>("Situacao")
                         .IsRequired()
                         .HasColumnType("varchar(100)");
 

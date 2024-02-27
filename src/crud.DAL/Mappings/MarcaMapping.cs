@@ -15,7 +15,7 @@ namespace crud.DAL.Mappings
                 .IsRequired()
                 .HasColumnType("varchar(100)");
 
-            builder.Property(m => m.Status)
+            builder.Property(m => m.Situacao)
                 .IsRequired()
                 .HasColumnType("varchar(100)");
 

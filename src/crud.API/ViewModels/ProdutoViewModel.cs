@@ -16,7 +16,7 @@ namespace crud.API.ViewModels
 
         public int Estoque { get; set; }
 
-        public string Status { get; set; }
+        public string Situacao { get; set; }
 
         public Guid codigo_Marca { get; set; }
 

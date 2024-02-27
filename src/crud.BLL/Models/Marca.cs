@@ -6,7 +6,7 @@ namespace crud.BLL.Models
         
 
         public string Descricao { get; set; }
-        public string Status { get; set; }
+        public string Situacao { get; set; }
 
     }
 }
