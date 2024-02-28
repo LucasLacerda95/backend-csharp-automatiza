@@ -76,7 +76,7 @@ namespace crud.API.Controllers
             if (!ModelState.IsValid) return BadRequest();
 
             await _produtoService.Atualizar(_mapper.Map<Produto>(produtoViewModel));
-
+            
             return Ok(produtoViewModel);
         }
 

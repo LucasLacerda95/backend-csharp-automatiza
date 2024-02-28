@@ -3,30 +3,6 @@
   "WorkspaceRootPath": "C:\\projetos\\crud\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|c:\\projetos\\crud\\src\\crud.api\\viewmodels\\produtoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|solutionrelative:src\\crud.api\\viewmodels\\produtoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B17F1A96-66EE-4A65-93F9-F0F6495C4064}|src\\crud.BLL\\crud.BLL.csproj|c:\\projetos\\crud\\src\\crud.bll\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B17F1A96-66EE-4A65-93F9-F0F6495C4064}|src\\crud.BLL\\crud.BLL.csproj|solutionrelative:src\\crud.bll\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B17F1A96-66EE-4A65-93F9-F0F6495C4064}|src\\crud.BLL\\crud.BLL.csproj|c:\\projetos\\crud\\src\\crud.bll\\models\\validations\\produtovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B17F1A96-66EE-4A65-93F9-F0F6495C4064}|src\\crud.BLL\\crud.BLL.csproj|solutionrelative:src\\crud.bll\\models\\validations\\produtovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B17F1A96-66EE-4A65-93F9-F0F6495C4064}|src\\crud.BLL\\crud.BLL.csproj|c:\\projetos\\crud\\src\\crud.bll\\models\\validations\\marcavalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B17F1A96-66EE-4A65-93F9-F0F6495C4064}|src\\crud.BLL\\crud.BLL.csproj|solutionrelative:src\\crud.bll\\models\\validations\\marcavalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|c:\\projetos\\crud\\src\\crud.api\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|solutionrelative:src\\crud.api\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B17F1A96-66EE-4A65-93F9-F0F6495C4064}|src\\crud.BLL\\crud.BLL.csproj|c:\\projetos\\crud\\src\\crud.bll\\models\\apiproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B17F1A96-66EE-4A65-93F9-F0F6495C4064}|src\\crud.BLL\\crud.BLL.csproj|solutionrelative:src\\crud.bll\\models\\apiproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|c:\\projetos\\crud\\src\\crud.api\\configuration\\apiconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|solutionrelative:src\\crud.api\\configuration\\apiconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,8 +11,8 @@
       "RelativeMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|solutionrelative:src\\crud.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21BD5D61-1036-45D7-8B87-9002DD5540E1}|src\\crud.DAL\\crud.DAL.csproj|c:\\projetos\\crud\\src\\crud.dal\\repository\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21BD5D61-1036-45D7-8B87-9002DD5540E1}|src\\crud.DAL\\crud.DAL.csproj|solutionrelative:src\\crud.dal\\repository\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|c:\\projetos\\crud\\src\\crud.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|solutionrelative:src\\crud.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,123 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProdutoViewModel.cs",
-              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.API\\ViewModels\\ProdutoViewModel.cs",
-              "RelativeDocumentMoniker": "src\\crud.API\\ViewModels\\ProdutoViewModel.cs",
-              "ToolTip": "C:\\projetos\\crud\\src\\crud.API\\ViewModels\\ProdutoViewModel.cs",
-              "RelativeToolTip": "src\\crud.API\\ViewModels\\ProdutoViewModel.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAADwvx4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T04:41:21.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.BLL\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "src\\crud.BLL\\Models\\Produto.cs",
-              "ToolTip": "C:\\projetos\\crud\\src\\crud.BLL\\Models\\Produto.cs",
-              "RelativeToolTip": "src\\crud.BLL\\Models\\Produto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T04:38:26.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProdutoValidation.cs",
-              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.BLL\\Models\\Validations\\ProdutoValidation.cs",
-              "RelativeDocumentMoniker": "src\\crud.BLL\\Models\\Validations\\ProdutoValidation.cs",
-              "ToolTip": "C:\\projetos\\crud\\src\\crud.BLL\\Models\\Validations\\ProdutoValidation.cs",
-              "RelativeToolTip": "src\\crud.BLL\\Models\\Validations\\ProdutoValidation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T04:35:59.624Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\crud.API\\appsettings.json",
+              "ToolTip": "C:\\projetos\\crud\\src\\crud.API\\appsettings.json",
+              "RelativeToolTip": "src\\crud.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-28T18:35:43.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MarcaValidation.cs",
-              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.BLL\\Models\\Validations\\MarcaValidation.cs",
-              "RelativeDocumentMoniker": "src\\crud.BLL\\Models\\Validations\\MarcaValidation.cs",
-              "ToolTip": "C:\\projetos\\crud\\src\\crud.BLL\\Models\\Validations\\MarcaValidation.cs",
-              "RelativeToolTip": "src\\crud.BLL\\Models\\Validations\\MarcaValidation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T04:35:53.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApiProduto.cs",
-              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.BLL\\Models\\ApiProduto.cs",
-              "RelativeDocumentMoniker": "src\\crud.BLL\\Models\\ApiProduto.cs",
-              "ToolTip": "C:\\projetos\\crud\\src\\crud.BLL\\Models\\ApiProduto.cs",
-              "RelativeToolTip": "src\\crud.BLL\\Models\\ApiProduto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T04:12:27.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProdutosController.cs",
-              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.API\\Controllers\\ProdutosController.cs",
-              "RelativeDocumentMoniker": "src\\crud.API\\Controllers\\ProdutosController.cs",
-              "ToolTip": "C:\\projetos\\crud\\src\\crud.API\\Controllers\\ProdutosController.cs",
-              "RelativeToolTip": "src\\crud.API\\Controllers\\ProdutosController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAHIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T04:00:55.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "ApiConf.cs",
               "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.API\\Configuration\\ApiConf.cs",
               "RelativeDocumentMoniker": "src\\crud.API\\Configuration\\ApiConf.cs",
               "ToolTip": "C:\\projetos\\crud\\src\\crud.API\\Configuration\\ApiConf.cs",
               "RelativeToolTip": "src\\crud.API\\Configuration\\ApiConf.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAADwvxYAAABqAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAADwvw8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T03:58:26.371Z",
+              "WhenOpened": "2024-02-28T18:12:41.372Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.API\\Program.cs",
               "RelativeDocumentMoniker": "src\\crud.API\\Program.cs",
               "ToolTip": "C:\\projetos\\crud\\src\\crud.API\\Program.cs",
               "RelativeToolTip": "src\\crud.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T03:58:14.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProdutoRepository.cs",
-              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.DAL\\Repository\\ProdutoRepository.cs",
-              "RelativeDocumentMoniker": "src\\crud.DAL\\Repository\\ProdutoRepository.cs",
-              "ToolTip": "C:\\projetos\\crud\\src\\crud.DAL\\Repository\\ProdutoRepository.cs",
-              "RelativeToolTip": "src\\crud.DAL\\Repository\\ProdutoRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAADwvx0AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T03:54:45.128Z",
+              "WhenOpened": "2024-02-28T18:12:36.045Z",
               "EditorCaption": ""
             }
           ]

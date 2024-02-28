@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
+using System.Net;
 using System.Text.Json.Serialization;
 
 namespace crud.API.ViewModels
@@ -22,6 +23,8 @@ namespace crud.API.ViewModels
 
         public Guid id_Marca { get; set; }
 
+        // esta propriedade é virtual pois não é inserida no banco de dados e só é acessada quando a classe é configurada ou modificada
+        // ela nunca pode ser modificada manualmente, apenas quando Estoque ou Preco são modificados
         public virtual decimal ValorTotalEstoque
         {
             get
@@ -29,6 +32,6 @@ namespace crud.API.ViewModels
                 return Estoque * Preco;
             }
         }
-
+        
     }
 }
