@@ -106,7 +106,7 @@ Após o procedimento ser executado com êxito receberemos uma informação na CL
 
 3. Clicando no botão de RUN na inteface do Visual Studio o Swagger será chamado automaticamente exibindo os end-points do projeto:
 
-5. ![image](https://github.com/LucasLacerda95/backend-csharp-automatiza/assets/59852529/22450fbe-7c93-4485-a584-e2be68dc91cb)
+* ![image](https://github.com/LucasLacerda95/backend-csharp-automatiza/assets/59852529/22450fbe-7c93-4485-a584-e2be68dc91cb)
 
 
 5. Segue o exemplo do retorno que será exibido no browser padrão:
