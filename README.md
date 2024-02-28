@@ -20,7 +20,7 @@ Após a instalação dos pré-requisitos será necessário configurar a aplicaç
 1. Durante a instalação do mecanismo de banco de dados é definida uma senha para o usuário root. Esta senha deverá ser setada no projeto em um arquivo de configuração .JSON para que a Aplicação e o Entity consigam se conectar com a base de dados local.
 
 2. O aquivo de configuração .JSON está localizado no diretório {Projeto}\src\crud.API\appsettings.json
-    ![alt text](backend-csharp-automatiza/assets/readmeAssets/configBD1.png)
+    ![alt text]([backend-csharp-automatiza/assets/readmeAssets/configBD1.png](https://drive.google.com/file/d/15uN7PDb-59X6p1Xw4Jjw_uoyjPP09i07/view?usp=sharing))
     
     Bastando inserir a senha que foi previamente setada na instalação.
 
