@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\projetos\\crud\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD5D61-1036-45D7-8B87-9002DD5540E1}|src\\crud.DAL\\crud.DAL.csproj|c:\\projetos\\crud\\src\\crud.dal\\repository\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD5D61-1036-45D7-8B87-9002DD5540E1}|src\\crud.DAL\\crud.DAL.csproj|solutionrelative:src\\crud.dal\\repository\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD5D61-1036-45D7-8B87-9002DD5540E1}|src\\crud.DAL\\crud.DAL.csproj|c:\\projetos\\crud\\src\\crud.dal\\repository\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD5D61-1036-45D7-8B87-9002DD5540E1}|src\\crud.DAL\\crud.DAL.csproj|solutionrelative:src\\crud.dal\\repository\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD5D61-1036-45D7-8B87-9002DD5540E1}|src\\crud.DAL\\crud.DAL.csproj|c:\\projetos\\crud\\src\\crud.dal\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD5D61-1036-45D7-8B87-9002DD5540E1}|src\\crud.DAL\\crud.DAL.csproj|solutionrelative:src\\crud.dal\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|c:\\projetos\\crud\\src\\crud.api\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|solutionrelative:src\\crud.api\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|c:\\projetos\\crud\\src\\crud.api\\controllers\\marcascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|solutionrelative:src\\crud.api\\controllers\\marcascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|c:\\projetos\\crud\\src\\crud.api\\viewmodels\\marcaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67F3628-F0C1-4665-B1D0-61E39647BD61}|src\\crud.API\\crud.API.csproj|solutionrelative:src\\crud.api\\viewmodels\\marcaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.DAL\\Repository\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "src\\crud.DAL\\Repository\\ProdutoRepository.cs",
+              "ToolTip": "C:\\projetos\\crud\\src\\crud.DAL\\Repository\\ProdutoRepository.cs",
+              "RelativeToolTip": "src\\crud.DAL\\Repository\\ProdutoRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvxoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T03:54:45.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MarcaRepository.cs",
+              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.DAL\\Repository\\MarcaRepository.cs",
+              "RelativeDocumentMoniker": "src\\crud.DAL\\Repository\\MarcaRepository.cs",
+              "ToolTip": "C:\\projetos\\crud\\src\\crud.DAL\\Repository\\MarcaRepository.cs",
+              "RelativeToolTip": "src\\crud.DAL\\Repository\\MarcaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T03:54:33.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.API\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "src\\crud.API\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\projetos\\crud\\src\\crud.API\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "src\\crud.API\\Controllers\\ProdutosController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAADwv0EAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T03:43:44.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MarcasController.cs",
+              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.API\\Controllers\\MarcasController.cs",
+              "RelativeDocumentMoniker": "src\\crud.API\\Controllers\\MarcasController.cs",
+              "ToolTip": "C:\\projetos\\crud\\src\\crud.API\\Controllers\\MarcasController.cs",
+              "RelativeToolTip": "src\\crud.API\\Controllers\\MarcasController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAADwvyMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T03:32:48.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MarcaViewModel.cs",
+              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.API\\ViewModels\\MarcaViewModel.cs",
+              "RelativeDocumentMoniker": "src\\crud.API\\ViewModels\\MarcaViewModel.cs",
+              "ToolTip": "C:\\projetos\\crud\\src\\crud.API\\ViewModels\\MarcaViewModel.cs",
+              "RelativeToolTip": "src\\crud.API\\ViewModels\\MarcaViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T03:32:37.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\projetos\\crud\\src\\crud.DAL\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "src\\crud.DAL\\Repository\\Repository.cs",
+              "ToolTip": "C:\\projetos\\crud\\src\\crud.DAL\\Repository\\Repository.cs",
+              "RelativeToolTip": "src\\crud.DAL\\Repository\\Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T03:29:56.111Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

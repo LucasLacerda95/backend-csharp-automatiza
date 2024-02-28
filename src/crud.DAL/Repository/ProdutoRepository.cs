@@ -24,7 +24,7 @@ namespace crud.DAL.Repository
         public async Task Remover(Guid id)//SoftDelete
         {
             Produto produtoDb = await ObterProdutoPorId(id);
-            produtoDb.Situacao = "INATIVO";
+            produtoDb.Situacao = "REMOVIDO";
             DbSet.Update(produtoDb);
 
             await SaveChanges();

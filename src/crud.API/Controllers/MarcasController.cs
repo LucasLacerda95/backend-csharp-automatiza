@@ -28,7 +28,7 @@ namespace crud.API.Controllers
 
 
         [HttpPost("")]
-        public async Task<ActionResult<MarcaViewModel>> Adicionar(MarcaViewModel marcaViewModel) {
+        public async Task<ActionResult<MarcaViewModel>> Adicionar([FromBody] MarcaViewModel marcaViewModel) {
 
             if (!ModelState.IsValid) return BadRequest(ModelState);
 
@@ -60,7 +60,7 @@ namespace crud.API.Controllers
         }
 
         [HttpPut("{id:guid}")]
-        public async Task<IActionResult> Atualizar(Guid id, MarcaViewModel marcaViewModel)
+        public async Task<IActionResult> Atualizar([FromRoute] Guid id, [FromBody] MarcaViewModel marcaViewModel)
         {
             if (id != marcaViewModel.Id)
             {
@@ -69,9 +69,7 @@ namespace crud.API.Controllers
 
             if (!ModelState.IsValid) return BadRequest();
 
-
             await _marcaService.Atualizar(_mapper.Map<Marca>(marcaViewModel));
-
 
             return Ok(marcaViewModel);
         }

@@ -8,19 +8,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "Descricao",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Situacao",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "marcaViewModel",
+        "Type": "crud.API.ViewModels.MarcaViewModel",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -92,22 +82,12 @@
       {
         "Name": "id",
         "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "Id",
-        "Type": "System.Guid",
         "IsRequired": true
       },
       {
-        "Name": "Descricao",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Situacao",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "marcaViewModel",
+        "Type": "crud.API.ViewModels.MarcaViewModel",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -147,34 +127,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "Descricao",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Preco",
-        "Type": "System.Decimal",
-        "IsRequired": false
-      },
-      {
-        "Name": "Estoque",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "Situacao",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "id_Marca",
-        "Type": "System.Guid",
-        "IsRequired": false
+        "Name": "produtoViewModel",
+        "Type": "crud.API.ViewModels.ProdutoViewModel",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -246,37 +201,12 @@
       {
         "Name": "id",
         "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "Id",
-        "Type": "System.Guid",
         "IsRequired": true
       },
       {
-        "Name": "Descricao",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Preco",
-        "Type": "System.Decimal",
-        "IsRequired": false
-      },
-      {
-        "Name": "Estoque",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "Situacao",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "id_Marca",
-        "Type": "System.Guid",
-        "IsRequired": false
+        "Name": "produtoViewModel",
+        "Type": "crud.API.ViewModels.ProdutoViewModel",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

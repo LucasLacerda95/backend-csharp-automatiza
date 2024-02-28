@@ -28,7 +28,7 @@ namespace crud.API.Controllers
 
 
         [HttpPost("")]
-        public async Task<ActionResult<ProdutoViewModel>> Adicionar(ProdutoViewModel produtoViewModel)
+        public async Task<ActionResult<ProdutoViewModel>> Adicionar([FromBody] ProdutoViewModel produtoViewModel)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
 
@@ -59,7 +59,7 @@ namespace crud.API.Controllers
         }
 
         [HttpPut("{id:guid}")]
-        public async Task<IActionResult> Atualizar(Guid id, ProdutoViewModel produtoViewModel)
+        public async Task<IActionResult> Atualizar([FromRoute] Guid id,[FromBody] ProdutoViewModel produtoViewModel)
         {
             if (id != produtoViewModel.Id)
             {
