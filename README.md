@@ -16,7 +16,9 @@ Após a instalação dos pré-requisitos será necessário configurar a aplicaç
 
     # Mecanismo de banco de dados
     
-        * Durante a instalação do mecanismo de banco de dados é definida uma senha para o usuário root. Esta senha deverá ser setada no projeto em um arquivo de configuração .JSON, para que a Aplicação e o Entity consigam se conectar com a base de dados local.
+        * Durante a instalação do mecanismo de banco de dados é definida uma senha para o usuário root. 
+        Esta senha deverá ser setada no projeto em um arquivo de configuração .JSON, para que a Aplicação 
+        e o Entity consigam se conectar com a base de dados local.
 
             * O aquivo de configuração .JSON está localizado no diretório {Projeto}\src\crud.API\appsettings.json
             ![alt text](\assets\readmeAssets\configBD1.png)
@@ -42,7 +44,8 @@ Após a instalação dos pré-requisitos será necessário configurar a aplicaç
             ```
             dotnet tool install --global dotnet-ef
             ```  
-        após aguardar a finalização do download e para garantir que o pacote está instalado você pode executar o seguinte comando:
+        após aguardar a finalização do download e para garantir que o pacote está instalado você pode executar o
+        seguinte comando:
 
             ```
             dotnet ef
