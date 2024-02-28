@@ -11,6 +11,5 @@ namespace crud.BLL.Models
         public string Situacao { get; set; }
         public Guid id_Marca { get; set; }
 
-
     }
 }

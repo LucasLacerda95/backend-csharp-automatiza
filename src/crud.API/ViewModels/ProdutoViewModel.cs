@@ -22,5 +22,13 @@ namespace crud.API.ViewModels
 
         public Guid id_Marca { get; set; }
 
+        public virtual decimal ValorTotalEstoque
+        {
+            get
+            {
+                return Estoque * Preco;
+            }
+        }
+
     }
 }
