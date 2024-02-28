@@ -109,3 +109,4 @@ C:\projetos\crud\src\crud.API\obj\Debug\net8.0\refint\crud.API.dll
 C:\projetos\crud\src\crud.API\obj\Debug\net8.0\crud.API.pdb
 C:\projetos\crud\src\crud.API\obj\Debug\net8.0\crud.API.genruntimeconfig.cache
 C:\projetos\crud\src\crud.API\obj\Debug\net8.0\ref\crud.API.dll
+C:\projetos\crud\src\crud.API\bin\Debug\net8.0\Newtonsoft.Json.dll

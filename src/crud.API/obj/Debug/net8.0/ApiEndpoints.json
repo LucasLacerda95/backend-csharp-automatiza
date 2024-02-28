@@ -236,5 +236,31 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "crud.API.Controllers.ProdutosController",
+    "Method": "UrlProduto",
+    "RelativePath": "api/produtos/catalogo/{ean}/imagens",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ean",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

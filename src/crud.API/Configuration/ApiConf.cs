@@ -15,6 +15,13 @@ namespace crud.API.Configuration
 
             services.AddSwaggerGen();
 
+            services.AddHttpClient("API", options =>
+            {
+                options.BaseAddress = new Uri("https://catalogoautomatiza.azurewebsites.net/api/");
+            });//cria endPoint e HTTP client para consumir api
+
+            services.AddScoped<HttpClient>();//Determina o tempo de vida do pacote e chama quando precisa 
+
             return services;
         }
 
