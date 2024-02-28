@@ -62,7 +62,9 @@ adendo: Executar o cmd ou PowerShell com privilégios de administrador
     8.0.200 [C:\Program Files\dotnet\sdk]
     8.0.201 [C:\Program Files\dotnet\sdk]
     ``` 
-6. O minnor[X.X.minnor] da versão não precisa ser específico contanto que o major[8.X.X] esteja 8 e já será sufiente para execução da API.
+6. O minnor[X.X.minnor] da versão não precisa ser específico contanto que o major[major.X.X] esteja 8 e já será sufiente para execução da API.
+
+
 
 
 
@@ -89,6 +91,9 @@ Após estar no diretório iremos fazer o upload da migration que está previamen
 Após o procedimento ser executado com êxito receberemos uma informação na CLI e podemos consultar a estrutura implementada no nosso mecanismo de banco de dados.
 
 
+
+
+
 ### ⚙️ Execução de Testes
 
 1. Swagger - Foi implementado no projeto uma funcionalidade do .NET chamada Swagger que facilita o processo de testes da API. Ele está implementado na paipline do projeto no arquivo "crud.API/Configuration/ApiConf" e pode ser desativado via comentário caso haja necessidade.
@@ -103,6 +108,8 @@ Após o procedimento ser executado com êxito receberemos uma informação na CL
 
 
 5. Agora a aplicação está ponta para receber os testes de validação dos requisitos propostos pelo processo seletivo [DEV Junior Automatiza](https://github.com/devfabricioalmeida/backend-csharp-automatiza/blob/main/README.md)
+
+
 
 
 
@@ -138,6 +145,8 @@ GET /api/catalogo/{ean}/imagens: retorna URL's de acesso às imagens da API atra
 
 
 
+
+
 ### 🖇️ Decisões do Projeto
 
 1. Arquitetura: Separei o projeto em camadas denominadas "crud.API","crud.BLL" e "crud.DAL" visando o desacoplamento das responsabilidades, buscando também a escalabilidade do projeto e atender os princípios de SOLID.
@@ -161,6 +170,8 @@ GET /api/catalogo/{ean}/imagens: retorna URL's de acesso às imagens da API atra
 
 
 7. Camada crud.DAL - Todas as classes de consulta e interação com o banco foram mantidas nesta camada para garantir o desacoplamento.
+
+
 
 
 
@@ -196,6 +207,8 @@ GET /api/catalogo/{ean}/imagens: retorna URL's de acesso às imagens da API atra
     ```
 
 [documentação](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package)
+
+
 
 
 
