@@ -8,9 +8,9 @@ Implementação de API REST com banco de dados em MySQL voltada para consulta e 
 * Obter IDE de sua preferência - sugestão: [Visual Studio](https://visualstudio.microsoft.com/pt-br/downloads/) 
 * Mecanismo de banco de dados [MySQL na versão (5.6.15)](https://drive.google.com/file/d/1q8n2wMvh1y_3-rXSQ1yDMLTyhDSwgL5D/view?usp=sharing)
 * CLI [Dotnet EF](https://learn.microsoft.com/pt-br/ef/core/get-started/overview/install) 
-
-
-
+ 
+ 
+ 
 ### 🔧 Instalação
 
 Após a instalação dos pré-requisitos será necessário configurar a aplicação para testes:
@@ -64,10 +64,10 @@ adendo: Executar o cmd ou PowerShell com privilégios de administrador
     ``` 
 6. O minnor[X.X.minnor] da versão não precisa ser específico contanto que o major[major.X.X] esteja 8 e já será sufiente para execução da API.
 
-
-
-
-
+ 
+ 
+ 
+ 
 ### ⚙️ Executando do projeto
 
 Após cumprir os pré-requisitos e realizar as configurações podemos iniciar o processo de excução e teste da API: 
@@ -90,10 +90,10 @@ Após estar no diretório iremos fazer o upload da migration que está previamen
 
 Após o procedimento ser executado com êxito receberemos uma informação na CLI e podemos consultar a estrutura implementada no nosso mecanismo de banco de dados.
 
-
-
-
-
+ 
+ 
+ 
+ 
 ### ⚙️ Execução de Testes
 
 1. Swagger - Foi implementado no projeto uma funcionalidade do .NET chamada Swagger que facilita o processo de testes da API. Ele está implementado na paipline do projeto no arquivo "crud.API/Configuration/ApiConf" e pode ser desativado via comentário caso haja necessidade.
@@ -108,11 +108,11 @@ Após o procedimento ser executado com êxito receberemos uma informação na CL
 
 
 5. Agora a aplicação está ponta para receber os testes de validação dos requisitos propostos pelo processo seletivo [DEV Junior Automatiza](https://github.com/devfabricioalmeida/backend-csharp-automatiza/blob/main/README.md)
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
 ### 🔩 EndPoints
 
 EndPoint da API:
@@ -142,11 +142,11 @@ DELETE /api/produtos/{id}: SoftRemove de um produto do sistema.
 ``` html
 GET /api/catalogo/{ean}/imagens: retorna URL's de acesso às imagens da API através da inserção do EAN.
 ```
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
 ### 🖇️ Decisões do Projeto
 
 1. Arquitetura: Separei o projeto em camadas denominadas "crud.API","crud.BLL" e "crud.DAL" visando o desacoplamento das responsabilidades, buscando também a escalabilidade do projeto e atender os princípios de SOLID.
@@ -170,11 +170,11 @@ GET /api/catalogo/{ean}/imagens: retorna URL's de acesso às imagens da API atra
 
 
 7. Camada crud.DAL - Todas as classes de consulta e interação com o banco foram mantidas nesta camada para garantir o desacoplamento.
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
 ### 🛠️ Pacotes (NuGet) Utilizados no projeto
 
 * Camada de API:
