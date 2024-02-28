@@ -20,7 +20,8 @@ Após a instalação dos pré-requisitos será necessário configurar a aplicaç
 1. Durante a instalação do mecanismo de banco de dados é definida uma senha para o usuário root. Esta senha deverá ser setada no projeto em um arquivo de configuração .JSON para que a Aplicação e o Entity consigam se conectar com a base de dados local.
 
 2. O aquivo de configuração .JSON está localizado no diretório {Projeto}\src\crud.API\appsettings.json
-    ![image](https://github.com/LucasLacerda95/backend-csharp-automatiza/assets/59852529/415655e0-768b-48a1-9aae-07d2cdc9c212)
+    
+    * ![image](https://github.com/LucasLacerda95/backend-csharp-automatiza/assets/59852529/415655e0-768b-48a1-9aae-07d2cdc9c212)
 
     
     Bastando inserir a senha que foi previamente setada na instalação.
@@ -49,22 +50,23 @@ adendo: Executar o cmd ou PowerShell com privilégios de administrador
     ```
     dotnet ef
     ```  
-3. E em seguida reber o seguinte retorno:
-![image](https://github.com/LucasLacerda95/backend-csharp-automatiza/assets/59852529/1c09df52-0fa1-475f-9509-6b3b188a38bf)
+3. E em seguida receber o seguinte retorno:
+   
+* ![image](https://github.com/LucasLacerda95/backend-csharp-automatiza/assets/59852529/1c09df52-0fa1-475f-9509-6b3b188a38bf)
 
 
-4. Verificar SDK's instalados via cmd:
+5. Verificar SDK's instalados via cmd:
 
     ```
     dotnet --list-sdks
     ```  
-5. Deverá receber o seguinte retorno:
+6. Deverá receber o seguinte retorno:
 
     ```
     8.0.200 [C:\Program Files\dotnet\sdk]
     8.0.201 [C:\Program Files\dotnet\sdk]
     ``` 
-6. O minnor[X.X.minnor] da versão não precisa ser específico contanto que o major[major.X.X] esteja 8 e já será sufiente para execução da API.
+7. O minnor[X.X.minnor] da versão não precisa ser específico contanto que o major[major.X.X] esteja 8 e já será sufiente para execução da API.
 
  
  
@@ -103,15 +105,16 @@ Após o procedimento ser executado com êxito receberemos uma informação na CL
 2. Com o mecanismo de banco de dados ativo, a migration implementada e os Pré-requisitos atendidos já podemos executar testes nos endpoints da aplicação.
 
 3. Clicando no botão de RUN na inteface do Visual Studio o Swagger será chamado automaticamente exibindo os end-points do projeto:
-![image](https://github.com/LucasLacerda95/backend-csharp-automatiza/assets/59852529/22450fbe-7c93-4485-a584-e2be68dc91cb)
+
+5. ![image](https://github.com/LucasLacerda95/backend-csharp-automatiza/assets/59852529/22450fbe-7c93-4485-a584-e2be68dc91cb)
 
 
-4. Segue o exemplo do retorno que será exibido no browser padrão:
-![image](https://github.com/LucasLacerda95/backend-csharp-automatiza/assets/59852529/56c6f5ab-f006-411e-91ea-87f1f130d19c)
+5. Segue o exemplo do retorno que será exibido no browser padrão:
+* ![image](https://github.com/LucasLacerda95/backend-csharp-automatiza/assets/59852529/56c6f5ab-f006-411e-91ea-87f1f130d19c)
 
 
 
-5. Agora a aplicação está ponta para receber os testes de validação dos requisitos propostos pelo processo seletivo [DEV Junior Automatiza](https://github.com/devfabricioalmeida/backend-csharp-automatiza/blob/main/README.md)
+6. Agora a aplicação está ponta para receber os testes de validação dos requisitos propostos pelo processo seletivo [DEV Junior Automatiza](https://github.com/devfabricioalmeida/backend-csharp-automatiza/blob/main/README.md)
  
  
  
