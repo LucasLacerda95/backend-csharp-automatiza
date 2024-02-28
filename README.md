@@ -6,7 +6,7 @@ Implementação de API REST com banco de dados em MySQL voltada para consulta e 
 
 * [SDK .NET 8.0](https://dotnet.microsoft.com/en-us/download)
 * Obter IDE de sua preferência - [sujestão: Visual Studio](https://visualstudio.microsoft.com/pt-br/downloads/) 
-* Mecanismo de banco de dados [MySQL na versão (5.6.15)}()--
+* Mecanismo de banco de dados [MySQL na versão (5.6.15)](https://drive.google.com/file/d/1q8n2wMvh1y_3-rXSQ1yDMLTyhDSwgL5D/view?usp=sharing)
 * CLI [Dotnet EF](https://learn.microsoft.com/pt-br/ef/core/get-started/overview/install) 
 
 
@@ -14,11 +14,9 @@ Implementação de API REST com banco de dados em MySQL voltada para consulta e 
 
 Após a instalação dos pré-requisitos será necessário configurar a aplicação para testes:
 
-    # Mecanismo de banco de dados
+    Mecanismo de banco de dados
     
-        * Durante a instalação do mecanismo de banco de dados é definida uma senha para o usuário root. 
-        Esta senha deverá ser setada no projeto em um arquivo de configuração .JSON, para que a Aplicação 
-        e o Entity consigam se conectar com a base de dados local.
+        * Durante a instalação do mecanismo de banco de dados é definida uma senha para o usuário root. Esta senha deverá ser setada no projeto em um arquivo de configuração .JSON, para que a Aplicação e o Entity consigam se conectar com a base de dados local.
 
             * O aquivo de configuração .JSON está localizado no diretório {Projeto}\src\crud.API\appsettings.json
             ![alt text](\assets\readmeAssets\configBD1.png)
@@ -36,7 +34,7 @@ Após a instalação dos pré-requisitos será necessário configurar a aplicaç
             A execução destas querys garatirá que o "root" terá a permissão necessária para manipular o Data Base.
 
 
-    # Entity Framework
+    Entity Framework
     
         *Será necessário instalar a CLI do EntityFramework no seu sistema operacional via CMD. 
         adendo: Executar o cmd com privilégios de administrador
@@ -44,8 +42,7 @@ Após a instalação dos pré-requisitos será necessário configurar a aplicaç
             ```
             dotnet tool install --global dotnet-ef
             ```  
-        após aguardar a finalização do download e para garantir que o pacote está instalado você pode executar o
-        seguinte comando:
+        após aguardar a finalização do download e para garantir que o pacote está instalado você pode executar o seguinte comando:
 
             ```
             dotnet ef
@@ -53,7 +50,7 @@ Após a instalação dos pré-requisitos será necessário configurar a aplicaç
         E em seguida reber o seguinte retorno:
         ![alt text](\assets\readmeAssets\dotnetEF.png)
 
-    #Verificar SDK's instalados via cmd:
+    Verificar SDK's instalados via cmd:
 
             ```
             dotnet --list-sdks
@@ -110,7 +107,7 @@ Após cumprir os pré-requisitos e realizar as configurações podemos iniciar o
 
 ### 🔩 EndPoints
 
-    # EndPoint da API:
+    EndPoint da API:
 
         *Marcas
 
@@ -165,18 +162,25 @@ Após cumprir os pré-requisitos e realizar as configurações podemos iniciar o
 Camada de API:
 
     * EntityFrameworkCore (8.0.2)
+        - ORM - Mapeia objetos relacionais
     * AutoMapper (13.0.1)
+        - Serve como um conversor de entidades
     * NewtonSoft.Json (13.0.3)
+        - Biblioteca para trabalhar com arquivos .JSON
     * Pomelo.EntityFramworkCore.MySQL (8.0.0)
+        - Biblioteca do Entity para implementar bancos MySQL
     * SwashBuckler.AspNetCore (6.4.0)
+        - Swagger - Maneira padronizada de representar API's
 
 Camada de BLL(Regras de Negócios):
      
     * FluentValidation (11.9.0)
+        - Validação de Entidades
 
 Camada de DAL(Acesso à Dados):
 
     * EntityFrameworkCore (8.0.2)
+        - ORM - Mapeia objetos Relacionais
 
 comando utilizado via CLI para inclusão dos pacotes:
     ```
