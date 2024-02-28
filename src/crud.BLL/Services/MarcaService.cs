@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace crud.BLL.Services
 {
-    public class MarcaService : IMarcaService
+    public class MarcaService : BaseService, IMarcaService
     {
         private readonly IMarcaRepository _marcaRepository;
 
@@ -22,18 +22,21 @@ namespace crud.BLL.Services
 
         public async Task Adicionar(Marca marca)
         {
-            //if (!ExecutarValidacao(new ProdutoValidation(), produto)) return;
-
             await _marcaRepository.Adicionar(marca);
         }
 
         public async Task Atualizar(Marca marca)
         {
             
-            await _marcaRepository.Adicionar(marca);
+            await _marcaRepository.Atualizar(marca);
         }
 
-      
+        public async Task Remover(Guid id)
+        {
+            await _marcaRepository.Remover(id);
+        }
+
+
 
         public void Dispose()
         {

@@ -9,7 +9,7 @@ namespace crud.BLL.Interfaces
 {
     public interface IProdutoRepository : IRepository<Produto>
     {
-        
-
+        Task<Produto> ObterProdutoPorId(Guid Id);
+        Task Remover(Guid id);
     }
 }

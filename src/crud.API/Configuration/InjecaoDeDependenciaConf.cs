@@ -17,10 +17,11 @@ namespace crud.API.Configuration
 
             services.AddScoped<DataContext>();
             services.AddScoped<IMarcaRepository, MarcaRepository>();
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
 
 
             services.AddScoped<IMarcaService, MarcaService>();
-      
+            services.AddScoped<IProdutoService, ProdutoService>();
 
             return services;
         }

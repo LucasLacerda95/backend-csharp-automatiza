@@ -4,13 +4,13 @@ using crud.BLL.Interfaces;
 using crud.BLL.Models;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
-using RouteAttribute = Microsoft.AspNetCore.Components.RouteAttribute;
+using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 
 
 namespace crud.API.Controllers
 {
     [Route("api/marcas")]
-    public class MarcasController : MainController
+    public class MarcasController : ControllerBase
     {
 
         private readonly IMarcaRepository _marcaRepository;
@@ -64,20 +64,30 @@ namespace crud.API.Controllers
         {
             if (id != marcaViewModel.Id)
             {
-                return Forbid();
+                return BadRequest();
             }
 
-            var marcaAtualizacao = await ObterMarca(id);
             if (!ModelState.IsValid) return BadRequest();
 
-            marcaAtualizacao.Descricao = marcaViewModel.Descricao;
-            marcaAtualizacao.Situacao = marcaViewModel.Situacao;
 
-            await _marcaService.Atualizar(_mapper.Map<Marca>(marcaAtualizacao));
+            await _marcaService.Atualizar(_mapper.Map<Marca>(marcaViewModel));
 
 
             return Ok(marcaViewModel);
         }
+
+        [HttpDelete("{id:guid}")]
+        public async Task<ActionResult<MarcaViewModel>> Excluir(Guid id)//SoftDelete
+        {
+            var marca = await ObterMarca(id);
+
+            if (marca == null) return NotFound();
+
+            await _marcaService.Remover(id);
+
+            return Ok("Deletado com êxito!");
+        }
+
 
 
 

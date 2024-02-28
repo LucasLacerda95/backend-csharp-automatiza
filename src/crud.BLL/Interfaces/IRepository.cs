@@ -8,6 +8,8 @@ namespace crud.BLL.Interfaces
     {
         Task Adicionar(TEntity entity);           
         Task<List<TEntity>> ObterTodos();
+        Task Atualizar(TEntity entity);
+        
 
     }
 }

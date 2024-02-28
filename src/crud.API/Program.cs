@@ -25,12 +25,12 @@ namespace crud.API
 
             if (app.Environment.IsDevelopment())
             {
-                app.UseSwagger();
-                app.UseSwaggerUI();
+               app.UseSwagger();
+               app.UseSwaggerUI();
             }
 
 
-            app.UseAuthentication();//Adiciona Middlewere de autenticação, encapsula o acesso à API
+            //app.UseAuthentication();//Adiciona Middlewere de autenticação, encapsula o acesso à API
 
 
 

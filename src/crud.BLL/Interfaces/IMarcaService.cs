@@ -7,6 +7,6 @@ namespace crud.BLL.Interfaces
     {
         Task Adicionar(Marca marca);
         Task Atualizar(Marca marca);
-        //Task Remover(Guid id);
+        Task Remover(Guid id);
     }
 }

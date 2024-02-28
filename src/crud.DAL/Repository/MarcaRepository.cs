@@ -20,7 +20,14 @@ namespace crud.DAL.Repository
                 .FirstOrDefaultAsync(m => m.Id == id) ?? new Marca(); 
         }
 
+        public async Task Remover(Guid id)//SoftDelete
+        {
+            Marca marcaDb = await ObterMarcaPorId(id);
+            marcaDb.Situacao = "INATIVO";
+            DbSet.Update(marcaDb);
 
+            await SaveChanges();
+        }
 
 
     }
