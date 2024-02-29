@@ -1,4 +1,4 @@
-# CRUD
+# PROJETO CRUD
 
 Implementação de API REST com banco de dados em MySQL voltada para consulta e manipulação de dados, objetivando atender aos requisitos propostos no processo seletivo [Desafio Backend Júnior Automatiza](https://github.com/devfabricioalmeida/backend-csharp-automatiza/blob/main/README.md)
 
