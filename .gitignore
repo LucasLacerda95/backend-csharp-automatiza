@@ -1,0 +1,7 @@
+#Dependencias
+/.vs
+
+
+# Arquivos de compilação
+bin/
+obj/
